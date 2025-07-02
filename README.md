@@ -24,9 +24,9 @@ Add the dependency to your `pom.xml`:
 
 ```xml
 <dependency>
-    <groupId>com.conversationalai</groupId>
-    <artifactId>conversational-ai-core</artifactId>
-    <version>1.0.0</version>
+       <groupId>com.conversationalai</groupId>
+    <artifactId>conversationalai</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
 </dependency>
 ```
 
