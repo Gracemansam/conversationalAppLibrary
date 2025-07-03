@@ -20,6 +20,10 @@ Transform natural language into database operations with AI-powered conversation
 
 ### Installation
 
+Clone the library and do mvn clean install
+
+not yet on mvn central repository(I should publish it there soon), after you can now add the dependency to your project
+
 Add the dependency to your `pom.xml`:
 
 ```xml
