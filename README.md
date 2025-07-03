@@ -33,7 +33,12 @@ Add the dependency to your `pom.xml`:
     <version>0.0.1-SNAPSHOT</version>
 </dependency>
 ```
+You should have at least one LLM model integrated into your setup. By default, this can be a locally hosted model like Ollama.
 
+⚠️ If you're running on a CPU, it's highly recommended to pull and use a lightweight model to avoid performance issues.
+
+Alternatively, you can use cloud-based models like OpenAI or Claude by providing the appropriate API keys.
+This option is generally preferable if you're not running on a GPU, as it significantly improves request-response time.
 ### Basic Usage
 
 ```java
